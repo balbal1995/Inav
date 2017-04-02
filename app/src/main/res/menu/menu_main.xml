@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="balindustries.balbal.inav.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/disp_map"
+        android:title="@string/dismap"
+        android:orderInCategory="1"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item android:id="@+id/node"
+        android:title="@string/node"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_send"
+        android:title="@string/distance"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+    <item android:id="@+id/disp_wifi"
+        android:title="@string/title_activity_display_list_wifi"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item android:id="@+id/disp_AP"
+        android:title="@string/disp_AP"
+        android:orderInCategory="5"
+        app:showAsAction="never" />
+</menu>

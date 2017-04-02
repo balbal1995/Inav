@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">iNAV</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_list_wifi">List WiFi</string>
+    <string name="title_activity_jarak">jarak</string>
+    <string name="distance">Distance</string>
+    <string name="dismap">Map</string>
+    <string name="disp_AP">View AP</string>
+    <string name="rem_AP">Remove AP</string>
+    <string name="node">View Node</string>
+    <string name="rnode">Remove Node</string>
+
+    <string-array name="wifiss">
+        <item>dc:9f:db:62:a9:3d</item>
+        <item>24:a4:3c:ac:38:4c</item>
+        <item>24:a4:3c:ac:35:15</item>
+        <item>24:a4:3c:ac:35:28</item>
+        <item>24:a4:3c:ac:3b:0c</item>
+        <item>24:a4:3c:ac:38:4c</item>
+    </string-array>
+
+    <string-array name="daftar_ruang">
+        <item>N201</item>
+        <item>N202</item>
+        <item>N203</item>
+        <item>N204</item>
+        <item>N205</item>
+        <item>N206</item>
+        <item>N207</item>
+        <item>N208</item>
+        <item>N209</item>
+        <item>N210</item>
+        <item>N211</item>
+        <item>N212</item>
+        <item>N213</item>
+        <item>N214</item>
+        <item>N215</item>
+        <item>N216</item>
+        <item>Tangga</item>
+        <item>Toilet</item>
+
+    </string-array>
+</resources>

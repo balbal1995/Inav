@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="balindustries.balbal.inav.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <balindustries.balbal.inav.Drawww
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapss" />
+
+    <Button
+        android:layout_width="@dimen/icon_dimension"
+        android:layout_height="@dimen/icon_dimension"
+        android:id="@+id/settarget"
+        android:background="@drawable/button_state_target"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:layout_width="@dimen/icon_dimension"
+        android:layout_height="@dimen/icon_dimension"
+        android:id="@+id/setstart"
+        android:background="@drawable/button_state_pointer"
+        android:layout_toLeftOf="@id/settarget"
+        android:layout_toStartOf="@id/settarget"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:layout_width="@dimen/icon_dimension"
+        android:layout_height="@dimen/icon_dimension"
+        android:id="@+id/nav"
+        android:background="@drawable/button_state_nav"
+        android:layout_toLeftOf="@id/setstart"
+        android:layout_toStartOf="@id/setstart"
+        android:layout_alignParentBottom="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lists"
+        android:background="@color/White"
+        android:layout_toLeftOf="@id/settarget"
+        android:layout_toStartOf="@id/settarget"></ListView>
+
+</RelativeLayout>

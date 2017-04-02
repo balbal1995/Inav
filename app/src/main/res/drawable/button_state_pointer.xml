@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/icon_dimension"
+    android:layout_height="@dimen/icon_dimension">
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/setpointeref"
+        android:layout_width="@dimen/icon_dimension"
+        android:layout_height="@dimen/icon_dimension" />
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/setpointerp"
+        android:layout_width="@dimen/icon_dimension"
+        android:layout_height="@dimen/icon_dimension" />
+    <item
+        android:state_focused="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/setpointerf"
+        android:layout_width="@dimen/icon_dimension"
+        android:layout_height="@dimen/icon_dimension" />
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/setpointer"
+        android:layout_width="@dimen/icon_dimension"
+        android:layout_height="@dimen/icon_dimension" />
+</selector>
